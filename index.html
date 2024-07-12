@@ -7,98 +7,6 @@
     <title>Calculator Logic With JavaScript</title>
     <style>
 
-        .animated-bg {
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            width: 75%;
-            height: 75%;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        .animated-bg .bg {
-            position: absolute;
-            top: 60;
-            left: 29;
-            width: 75%;
-            height: 75%;
-            background: linear-gradient(45deg, rgba(253, 173, 120, 0.8), rgba(136, 72, 179, 0.3));
-            z-index: -1;
-            animation: animateBg 30s linear infinite;
-        }
-
-        @keyframes animateBg {
-            0% {
-                transform: translateX(-50%) translateY(-50%) rotate(0deg);
-            }
-            100% {
-                transform: translateX(-50%) translateY(-50%) rotate(360deg);
-            }
-        }
-
-        .animatedz-bg {
-            position: absolute;
-            top: 20%;
-            right: 10%;
-            width: 75%;
-            height: 75%;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        .animatedz-bg .bg {
-            position: absolute;
-            top: 5;
-            left: 29;
-            width: 40%;
-            height: 40%;
-            background: linear-gradient(45deg, rgba(218, 147, 100, 0.8), rgba(161, 95, 206, 0.3));
-            z-index: -1;
-            animation: animatezBg 20s linear infinite;
-        }
-
-        
-        @keyframes animatezBg {
-            0% {
-                transform: translateX(-50%) translateY(-50%) rotate(0deg);
-            }
-            100% {
-                transform: translateX(-50%) translateY(-50%) rotate(360deg);
-            }
-        }
-
-        .animatedzz-bg {
-            position: absolute;
-            top: 70;
-            left: 60%;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        .animatedzz-bg .bg {
-            position: absolute;
-            top: 60%;
-            left: 60%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, rgba(218, 147, 100, 0.8), rgba(137, 81, 175, 0.3));
-            z-index: -1;
-            animation: animateBgzz 35s linear infinite;
-        }
-
-        @keyframes animateBgzz {
-            100% {
-                transform: translateX(-50%) translateY(-50%) rotate(0deg);
-            }
-            0% {
-                transform: translateX(-50%) translateY(-50%) rotate(360deg);
-            }
-        }
-
-
         body {
             background-color: rgb(228, 151, 115);
         }
@@ -210,18 +118,6 @@
     </style>
 </head>
 <body>
-    <div class="animated-bg">
-        <div class="bg"></div>
-    </div>
-
-    <div class="animatedz-bg">
-        <div class="bg"></div>
-    </div>
-
-    <div class="animatedzz-bg">
-        <div class="bg"></div>
-    </div>
-
     <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; margin-top: 65px;">Calculator App</h1>
 
     <div class="calculator">
